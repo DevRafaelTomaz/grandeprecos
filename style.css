@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Componente-bg {
+  background-color: #ffffff;
+}
+.Componente {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.Componente h1 {
+  padding-bottom: 30px;
+  color: hsl(179, 62%, 43%);
+  font-size: 3rem;
+}
+.Componente h2 {
+  padding-bottom: 10px;
+  color: #c6d86a;
+  font-size: 1.5rem;
+}
+.Componente p {
+  padding: 10px;
+  color: #5a6c7e;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.Assinatura-mensal {
+  background-color: #2bb3b1;
+  text-align: center;
+  padding: 60px;
+}
+.Assinatura-mensal h3 {
+  font-size: 2rem;
+  color: #ffff;
+  margin: 5px;
+}
+.Assinatura-mensal h4 {
+  font-size: 1.5rem;
+  color: #ffff;
+}
+.Assinatura-mensal span {
+  color: #f2f0f0;
+  font-size: 1.5rem;
+  margin: 5px;
+}
+.Assinatura-mensal p {
+  color: #404e5c;
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.botao {
+  width: 245px;
+  height: 55px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  margin-top: 10px;
+  background-color: #fbff00;
+  color: #050404;
+  text-align: center;
+  cursor: pointer;
+}
+.botao:hover {
+  background-color: #e4d606;
+  color: #ffffff;
+}
+
+/*Informarcoes*/
+.informacoes {
+  background-color: #4abebd;
+  text-align: center;
+  padding: 60px;
+}
+.informacoes h3 {
+  font-size: 2rem;
+  color: #ffff;
+  margin: 5px;
+}
+.informacoes p {
+  color: #404e5c;
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
